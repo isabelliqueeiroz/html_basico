@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>
+</head>
+<body>
+    <h1>Luna Captures📸</h1>
+  <nav>
+    <a href="Sobre">Sobre</a> | <a href="Galeria">Galeria</a> | <a href="Contato">Contato</a></nav>
+    <h2>Sobre Luna</h2>
+    <p>Fotógrafia há <strong>8 anos</strong> especializada em <em>momentos únicos</em></p>
+    <div style="text-align: center;">
+    <p><q>A fotografia captura não apenas o que vemos, mas o que sentimos</q></p>
+    </div>
+    <h2>Galeria</h2>
+    <section>
+        <img src="assets/images (2).jpg" alt="praia" width="355" height="">
+        <img src="assets/images (2).png" alt="familia" width="250">
+        <img src="assets/family-pier-man-woman-39691.jpeg" width="281">
+    </section>
+    <h3>Serviços</h3>
+     <ul style="list-style-type: circle;">
+        <li><strong>Casamentos</strong> - R$ 1.200</li>
+        <li><strong>Retratos</strong> - R$ 350</li>
+        <li><strong>Eventos</strong> - R$ 600</li>
+    </ul>
+    <H2>Contato</H2>
+    <form action="processar.php" method="pot">
+
+        <label for="nome">Nome completo</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome..." required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
+        
+         <label for="cidade">Cidade:</label>
+
+        <select name="evento" id="evento">
+            <option value="">Casamento</option>
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="mg">Belo Horizonte</option>
+        </select><br><br>
+        
+        <label for="Detalhes">Detalhes:</label><br>
+        <textarea name="detalhes" id="detalhes" rows="4" cols="50"></textarea><br><br>
+
+        <button for="submit"> Solicitar Orçamento</button>
+    </form>
+    <p>&copy;2025 Luna Captures |<a href="luna@exemplo.com">luna@exemplo.com</a> </p>
+</body>
+</html>
